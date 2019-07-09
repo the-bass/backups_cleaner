@@ -1,0 +1,16 @@
+[package]
+name = "backups_cleaner"
+version = "0.1.0"
+authors = ["Sebastian Bitzer <sebastian-bitzer@posteo.de>"]
+edition = "2018"
+
+[lib]
+name = "backups_cleaner"
+path = "src/lib/lib.rs"
+
+[dependencies]
+chrono = "0.4.7"
+rusoto_core = "0.40.0"
+rusoto_s3 = "0.40.0"
+structopt = "0.2.18"
+time = "0.1.42"
